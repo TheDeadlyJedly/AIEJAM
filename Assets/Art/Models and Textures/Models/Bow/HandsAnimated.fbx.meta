@@ -1,0 +1,584 @@
+fileFormatVersion: 2
+guid: af1549babedc8d345b65c4e87e706d8c
+timeCreated: 1538230236
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: ArmBottom
+    100002: ArmBottom 1
+    100004: ArmTop
+    100006: ArmTop 1
+    100008: ArmTop_C_L
+    100010: ArmTwist_C
+    100012: arrow
+    100014: bow
+    100016: finger_C
+    100018: finger_C1
+    100020: finger_C2
+    100022: finger_C3
+    100024: finger_C4
+    100026: fingerBase_C
+    100028: fingerBase_C1
+    100030: fingerBase_C2
+    100032: fingerBase_C3
+    100034: fingerBase_C4
+    100036: FingerBottom
+    100038: FingerBottom 1
+    100040: FingerBottom1
+    100042: FingerBottom1 1
+    100044: FingerBottom2
+    100046: FingerBottom2 1
+    100048: FingerBottom3
+    100050: FingerBottom3 1
+    100052: FingerBottom4
+    100054: FingerBottom4 1
+    100056: FingerCarpal
+    100058: FingerCarpal 1
+    100060: FingerCarpal1
+    100062: FingerCarpal1 1
+    100064: FingerCarpal2
+    100066: FingerCarpal2 1
+    100068: FingerCarpal3
+    100070: FingerCarpal3 1
+    100072: FingerCarpal4
+    100074: FingerCarpal4 1
+    100076: fingerMid_C
+    100078: fingerMid_C1
+    100080: fingerMid_C2
+    100082: fingerMid_C3
+    100084: fingerMid_C4
+    100086: FingerMiddle
+    100088: FingerMiddle 1
+    100090: FingerMiddle1
+    100092: FingerMiddle1 1
+    100094: FingerMiddle2
+    100096: FingerMiddle2 1
+    100098: FingerMiddle3
+    100100: FingerMiddle3 1
+    100102: FingerMiddle4
+    100104: FingerMiddle4 1
+    100106: FingerTip
+    100108: FingerTip 1
+    100110: FingerTip1
+    100112: FingerTip1 1
+    100114: FingerTip2
+    100116: FingerTip2 1
+    100118: FingerTip3
+    100120: FingerTip3 1
+    100122: FingerTip4
+    100124: FingerTip4 1
+    100126: fingerTip_C
+    100128: fingerTip_C1
+    100130: fingerTip_C2
+    100132: fingerTip_C3
+    100134: fingerTip_C4
+    100136: ForeArm
+    100138: ForeArm 1
+    100140: ForeArm_C
+    100142: ForeArmTurner1
+    100144: ForeArmTurner1 1
+    100146: ForeArmTwist_C
+    100148: group1
+    100150: Hand_L
+    100152: Hand_R
+    100154: HandControls_L
+    100156: //RootNode
+    100158: Index
+    100160: Middle
+    100162: Pinky
+    100164: Ring
+    100166: Thumb
+    100168: Weapon_C
+    100170: weaponCubeL
+    100172: weaponCubeR
+    100174: Wrist
+    100176: Wrist 1
+    100178: Wrist_C
+    400000: ArmBottom
+    400002: ArmBottom 1
+    400004: ArmTop
+    400006: ArmTop 1
+    400008: ArmTop_C_L
+    400010: ArmTwist_C
+    400012: arrow
+    400014: bow
+    400016: finger_C
+    400018: finger_C1
+    400020: finger_C2
+    400022: finger_C3
+    400024: finger_C4
+    400026: fingerBase_C
+    400028: fingerBase_C1
+    400030: fingerBase_C2
+    400032: fingerBase_C3
+    400034: fingerBase_C4
+    400036: FingerBottom
+    400038: FingerBottom 1
+    400040: FingerBottom1
+    400042: FingerBottom1 1
+    400044: FingerBottom2
+    400046: FingerBottom2 1
+    400048: FingerBottom3
+    400050: FingerBottom3 1
+    400052: FingerBottom4
+    400054: FingerBottom4 1
+    400056: FingerCarpal
+    400058: FingerCarpal 1
+    400060: FingerCarpal1
+    400062: FingerCarpal1 1
+    400064: FingerCarpal2
+    400066: FingerCarpal2 1
+    400068: FingerCarpal3
+    400070: FingerCarpal3 1
+    400072: FingerCarpal4
+    400074: FingerCarpal4 1
+    400076: fingerMid_C
+    400078: fingerMid_C1
+    400080: fingerMid_C2
+    400082: fingerMid_C3
+    400084: fingerMid_C4
+    400086: FingerMiddle
+    400088: FingerMiddle 1
+    400090: FingerMiddle1
+    400092: FingerMiddle1 1
+    400094: FingerMiddle2
+    400096: FingerMiddle2 1
+    400098: FingerMiddle3
+    400100: FingerMiddle3 1
+    400102: FingerMiddle4
+    400104: FingerMiddle4 1
+    400106: FingerTip
+    400108: FingerTip 1
+    400110: FingerTip1
+    400112: FingerTip1 1
+    400114: FingerTip2
+    400116: FingerTip2 1
+    400118: FingerTip3
+    400120: FingerTip3 1
+    400122: FingerTip4
+    400124: FingerTip4 1
+    400126: fingerTip_C
+    400128: fingerTip_C1
+    400130: fingerTip_C2
+    400132: fingerTip_C3
+    400134: fingerTip_C4
+    400136: ForeArm
+    400138: ForeArm 1
+    400140: ForeArm_C
+    400142: ForeArmTurner1
+    400144: ForeArmTurner1 1
+    400146: ForeArmTwist_C
+    400148: group1
+    400150: Hand_L
+    400152: Hand_R
+    400154: HandControls_L
+    400156: //RootNode
+    400158: Index
+    400160: Middle
+    400162: Pinky
+    400164: Ring
+    400166: Thumb
+    400168: Weapon_C
+    400170: weaponCubeL
+    400172: weaponCubeR
+    400174: Wrist
+    400176: Wrist 1
+    400178: Wrist_C
+    2100000: lambert1
+    2100002: lambert3
+    2100004: lambert2
+    2300000: ArmBottom
+    2300002: ArmBottom 1
+    2300004: ArmTop
+    2300006: ArmTop 1
+    2300008: arrow
+    2300010: FingerBottom
+    2300012: FingerBottom 1
+    2300014: FingerBottom1
+    2300016: FingerBottom1 1
+    2300018: FingerBottom2
+    2300020: FingerBottom2 1
+    2300022: FingerBottom3
+    2300024: FingerBottom3 1
+    2300026: FingerBottom4
+    2300028: FingerBottom4 1
+    2300030: FingerCarpal
+    2300032: FingerCarpal 1
+    2300034: FingerCarpal1
+    2300036: FingerCarpal1 1
+    2300038: FingerCarpal2
+    2300040: FingerCarpal2 1
+    2300042: FingerCarpal3
+    2300044: FingerCarpal3 1
+    2300046: FingerCarpal4
+    2300048: FingerCarpal4 1
+    2300050: FingerMiddle
+    2300052: FingerMiddle 1
+    2300054: FingerMiddle1
+    2300056: FingerMiddle1 1
+    2300058: FingerMiddle2
+    2300060: FingerMiddle2 1
+    2300062: FingerMiddle3
+    2300064: FingerMiddle3 1
+    2300066: FingerMiddle4
+    2300068: FingerMiddle4 1
+    2300070: FingerTip
+    2300072: FingerTip 1
+    2300074: FingerTip1
+    2300076: FingerTip1 1
+    2300078: FingerTip2
+    2300080: FingerTip2 1
+    2300082: FingerTip3
+    2300084: FingerTip3 1
+    2300086: FingerTip4
+    2300088: FingerTip4 1
+    2300090: ForeArm
+    2300092: ForeArm 1
+    2300094: ForeArmTurner1
+    2300096: ForeArmTurner1 1
+    2300098: weaponCubeL
+    2300100: weaponCubeR
+    2300102: Wrist
+    2300104: Wrist 1
+    3300000: ArmBottom
+    3300002: ArmBottom 1
+    3300004: ArmTop
+    3300006: ArmTop 1
+    3300008: arrow
+    3300010: FingerBottom
+    3300012: FingerBottom 1
+    3300014: FingerBottom1
+    3300016: FingerBottom1 1
+    3300018: FingerBottom2
+    3300020: FingerBottom2 1
+    3300022: FingerBottom3
+    3300024: FingerBottom3 1
+    3300026: FingerBottom4
+    3300028: FingerBottom4 1
+    3300030: FingerCarpal
+    3300032: FingerCarpal 1
+    3300034: FingerCarpal1
+    3300036: FingerCarpal1 1
+    3300038: FingerCarpal2
+    3300040: FingerCarpal2 1
+    3300042: FingerCarpal3
+    3300044: FingerCarpal3 1
+    3300046: FingerCarpal4
+    3300048: FingerCarpal4 1
+    3300050: FingerMiddle
+    3300052: FingerMiddle 1
+    3300054: FingerMiddle1
+    3300056: FingerMiddle1 1
+    3300058: FingerMiddle2
+    3300060: FingerMiddle2 1
+    3300062: FingerMiddle3
+    3300064: FingerMiddle3 1
+    3300066: FingerMiddle4
+    3300068: FingerMiddle4 1
+    3300070: FingerTip
+    3300072: FingerTip 1
+    3300074: FingerTip1
+    3300076: FingerTip1 1
+    3300078: FingerTip2
+    3300080: FingerTip2 1
+    3300082: FingerTip3
+    3300084: FingerTip3 1
+    3300086: FingerTip4
+    3300088: FingerTip4 1
+    3300090: ForeArm
+    3300092: ForeArm 1
+    3300094: ForeArmTurner1
+    3300096: ForeArmTurner1 1
+    3300098: weaponCubeL
+    3300100: weaponCubeR
+    3300102: Wrist
+    3300104: Wrist 1
+    4300000: FingerTip
+    4300002: FingerMiddle
+    4300004: FingerBottom
+    4300006: FingerCarpal
+    4300008: ForeArm
+    4300010: ForeArmTurner1
+    4300012: Wrist
+    4300014: ArmTop
+    4300016: FingerBottom1
+    4300018: FingerMiddle1
+    4300020: FingerTip1
+    4300022: FingerMiddle2
+    4300024: FingerBottom2
+    4300026: ArmBottom
+    4300028: FingerTip2
+    4300030: FingerBottom3
+    4300032: FingerCarpal1
+    4300034: FingerMiddle3
+    4300036: FingerTip3
+    4300038: FingerTip4
+    4300040: FingerCarpal2
+    4300042: FingerCarpal3
+    4300044: FingerMiddle4
+    4300046: FingerBottom4
+    4300048: FingerCarpal4
+    4300050: weaponCubeL
+    4300052: bow
+    4300054: FingerTip
+    4300056: FingerMiddle
+    4300058: FingerBottom
+    4300060: FingerCarpal
+    4300062: ForeArm
+    4300064: ForeArmTurner1
+    4300066: Wrist
+    4300068: ArmTop
+    4300070: FingerBottom1
+    4300072: FingerMiddle1
+    4300074: FingerTip1
+    4300076: FingerMiddle2
+    4300078: FingerBottom2
+    4300080: ArmBottom
+    4300082: FingerTip2
+    4300084: FingerBottom3
+    4300086: FingerCarpal1
+    4300088: FingerMiddle3
+    4300090: FingerTip3
+    4300092: FingerTip4
+    4300094: FingerCarpal2
+    4300096: FingerCarpal3
+    4300098: FingerMiddle4
+    4300100: FingerBottom4
+    4300102: FingerCarpal4
+    4300104: weaponCubeR
+    4300106: arrow
+    7400000: Pull String
+    7400002: Stationary
+    7400004: Release
+    7400006: Idle
+    7400008: Take 001
+    9500000: //RootNode
+    13700000: bow
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Pull String
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Stationary
+      takeName: Take 001
+      firstFrame: 29
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Release
+      takeName: Take 001
+      firstFrame: 30
+      lastFrame: 75
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.056470554
+        functionName: SpawnArrow
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 15
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 75
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
