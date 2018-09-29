@@ -4,13 +4,11 @@ using UnityEngine;
 
 public class Arrowscript : MonoBehaviour {
 
-    public GameObject arrow;
-    // Use this for initialization
-    //private void Awake() {
-    //    Invoke("DestroyArrow", 5f);
-    //}
+    private void Awake() {
+        Invoke("DestroyArrow", 5f);
+    }
 
-    //public void DestroyArrow() {
-    //    Destroy(arrow);
-    //}
+    public void DestroyArrow() {
+        Destroy(gameObject);
+    }
 }
