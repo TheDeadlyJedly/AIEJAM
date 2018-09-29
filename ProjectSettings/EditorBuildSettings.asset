@@ -4,4 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Greybox2.unity
+    guid: 504fd05c8d411b74793d98c661019d07
+  - enabled: 1
+    path: Assets/Greybox.unity
+    guid: 3270b56d983487c4f9c907d674b7c43b
+  - enabled: 1
+    path: Assets/ScottsScene.unity
+    guid: 899add5f832732a4eb758ff698ea44b9
