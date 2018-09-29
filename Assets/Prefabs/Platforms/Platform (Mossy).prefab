@@ -39,6 +39,8 @@ GameObject:
   - component: {fileID: 23793053769895552}
   - component: {fileID: 95413389623952840}
   - component: {fileID: 114609333160349026}
+  - component: {fileID: 65325847466350486}
+  - component: {fileID: 65239632292182818}
   m_Layer: 0
   m_Name: Platform (Mossy)
   m_TagString: Untagged
@@ -52,8 +54,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1553800749864746}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.864, z: 6.2}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.04, y: 9.98, z: 3.91}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4983795884082652}
@@ -67,7 +69,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1540051731714912}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.30500007, z: 0}
+  m_LocalPosition: {x: 0, y: -0.66, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4193798905300654}
@@ -114,6 +116,30 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1553800749864746}
   m_Mesh: {fileID: 4300000, guid: 1e89c4b43072f094485cc01973984f43, type: 3}
+--- !u!65 &65239632292182818
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1553800749864746}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.8512053, y: 0.28813934, z: 2.57889}
+  m_Center: {x: 0, y: 0.3090992, z: 0}
+--- !u!65 &65325847466350486
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1553800749864746}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.8512053, y: 0.54083717, z: 2.57889}
+  m_Center: {x: 0, y: -0.10302523, z: 0}
 --- !u!95 &95413389623952840
 Animator:
   serializedVersion: 3
@@ -146,7 +172,7 @@ Light:
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 1
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -178,6 +204,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 488df7a23cdd35c44a94bfae686b57a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _startPoint: {x: 0, y: 0, z: 0}
-  _endPoint: {x: 0, y: 0, z: 0}
-  _time: 0
+  _startPoint: {x: 0.04, y: 9.98, z: 24.754}
+  _endPoint: {x: 0.04, y: 9.98, z: 3.91}
+  _time: 10
