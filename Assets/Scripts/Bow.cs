@@ -15,9 +15,9 @@ public class Bow : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        coolDown -= Time.deltaTime;
+        if(coolDown > 0) coolDown -= Time.deltaTime;
         Debug.Log("Cooldown: " + coolDown);
-        coolDownSlider.value = coolDown;
+        if(coolDownSlider != null) coolDownSlider.value = coolDown;
         if (Input.GetKeyDown(KeyCode.Mouse0) && (coolDown <= 0)) {
             coolDown = 1;
             Rigidbody fireArrow;
