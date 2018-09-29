@@ -6,7 +6,7 @@ public class MovingPlatform : MonoBehaviour {
     Dictionary<Transform, Transform> _parents = new Dictionary<Transform, Transform>();
     private void OnTriggerEnter(Collider other)
     {
-        if(other.transform.parent != null)
+        if(other.transform.parent != null && other.transform.parent != this.transform)
             _parents.Add(other.transform, other.transform.parent);
         other.transform.parent = this.transform;
     }
@@ -34,7 +34,14 @@ public class MovingPlatform : MonoBehaviour {
 
     public float _time;
     private float _timer;
-    private bool _forward = true;
+    public bool _forward = true;
+
+    private void Start()
+    {
+        _timer = _time *
+            (_startPoint - transform.position).magnitude / (_startPoint - _endPoint).magnitude;
+        
+    }
     private void Update()
     {
 

@@ -11,4 +11,12 @@ public class Arrowscript : MonoBehaviour {
     public void DestroyArrow() {
         Destroy(gameObject);
     }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        Debug.Log("HIT");
+        IHitable hit = collision.gameObject.GetComponent<IHitable>();
+        if (hit != null)
+            hit.Hit(1);
+    }
 }
