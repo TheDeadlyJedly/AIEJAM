@@ -170,9 +170,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cace15f9871653b40aeb41f4f608abad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arrow: {fileID: 1921653820634676, guid: 2c100a6e034192642801a102878c8c28, type: 2}
-  bow: {fileID: 1660733465388758}
-  bowPos: {fileID: 4444322534734214}
-  projectileSpeed: 35
   coolDown: 1
   coolDownSlider: {fileID: 0}
+  onPull:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  onRelease:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
