@@ -56,8 +56,7 @@ public class MovingPlatform : MonoBehaviour {
             if (_timer <= 0) _forward = true;
         }
         
-
-
+        if(_startPoint.x != float.NaN)
         transform.position = Vector3.Lerp(_startPoint, _endPoint, _timer / _time);
     }
 
