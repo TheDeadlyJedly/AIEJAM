@@ -14,3 +14,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Greybox2.unity
     guid: 504fd05c8d411b74793d98c661019d07
+  - enabled: 1
+    path: Assets/Greybox3.unity
+    guid: dbdcaffb27a26214bac55a2a29571ee0
+  - enabled: 1
+    path: Assets/Level_4.unity
+    guid: 1d3578c49ccffa4449511e7332ea03aa

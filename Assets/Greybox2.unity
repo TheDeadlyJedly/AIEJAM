@@ -3905,6 +3905,35 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 92aa0ba12cee44243a8037dfe232ceed, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &574941256 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1717038926546136, guid: 8aedb2678a28d7248a209444edc59e8d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1659284904}
+--- !u!65 &574941257
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 574941256}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.276067, y: 20.422518, z: 0.9999999}
+  m_Center: {x: -1.1380334, y: 9.711259, z: -1.3859815e-15}
+--- !u!114 &574941258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 574941256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70c14a93886820748bf076b073bdf645, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sceneName: Greybox3
 --- !u!1 &604052777 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: 17e02a3db9ff59e499477504762cd49d, type: 3}
@@ -11993,7 +12022,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4840748254456136, guid: 8aedb2678a28d7248a209444edc59e8d, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0.139
+      value: 0.14
       objectReference: {fileID: 0}
     - target: {fileID: 4840748254456136, guid: 8aedb2678a28d7248a209444edc59e8d, type: 2}
       propertyPath: m_LocalPosition.y
@@ -12001,7 +12030,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4840748254456136, guid: 8aedb2678a28d7248a209444edc59e8d, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -11.859
+      value: -11.196
       objectReference: {fileID: 0}
     - target: {fileID: 4840748254456136, guid: 8aedb2678a28d7248a209444edc59e8d, type: 2}
       propertyPath: m_LocalRotation.x
