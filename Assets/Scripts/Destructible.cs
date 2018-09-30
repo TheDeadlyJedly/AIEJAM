@@ -13,6 +13,7 @@ public class Destructible : MonoBehaviour, IHitable {
         if(_HP <= 0)
         {
             _onDestroy.Invoke();
+            Destroy(gameObject);
             return true;
         }
         return false;
