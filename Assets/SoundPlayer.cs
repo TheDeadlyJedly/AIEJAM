@@ -34,4 +34,17 @@ public class SoundPlayer : MonoBehaviour {
             Debug.Log("Bad Index");
         }
     }
+    public void CreateSound(int index)
+    {
+
+        if (index >= 0 && index < _setSounds.Length && _setSounds[index] != null)
+        {
+            GameObject g = new GameObject("Audio");
+            AudioSource s = g.AddComponent<AudioSource>();
+
+            s.clip = _setSounds[index];
+            s.Play();
+            Destroy(g, _setSounds[index].length);
+        }
+    }
 }
