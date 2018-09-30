@@ -19,10 +19,13 @@ public class Arrowscript : MonoBehaviour {
     private void OnCollisionEnter(Collision collision)
     {
         _renderer.transform.SetParent(null);
-        IHitable hit = collision.gameObject.GetComponent<IHitable>();
-        if (hit != null)
+        IHitable[] hits = collision.gameObject.GetComponents<IHitable>();
+        foreach (IHitable h in hits)
         {
-            hit.Hit(1);
+            if (h != null)
+            {
+                h.Hit(1);
+            }
         }
 
         GetComponent<Rigidbody>().isKinematic = true;

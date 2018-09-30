@@ -6,9 +6,10 @@ public class PlayerController : MonoBehaviour {
 
     private void OnTriggerStay(Collider other)
     {
-        IInteractable obj = other.GetComponent<IInteractable>();
+        IInteractable[] obj = other.GetComponentsInChildren<IInteractable>();
         if(obj != null)
             if (Input.GetKeyDown(KeyCode.E))
-                obj.Interact(gameObject);
+                foreach(IInteractable e in obj)
+                    e.Interact(gameObject);
     }
 }

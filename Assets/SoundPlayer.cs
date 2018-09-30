@@ -40,7 +40,9 @@ public class SoundPlayer : MonoBehaviour {
         if (index >= 0 && index < _setSounds.Length && _setSounds[index] != null)
         {
             GameObject g = new GameObject("Audio");
+            g.transform.position = this.transform.position;
             AudioSource s = g.AddComponent<AudioSource>();
+            s.spatialBlend = 1;
 
             s.clip = _setSounds[index];
             s.Play();
